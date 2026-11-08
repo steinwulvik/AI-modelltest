@@ -1,0 +1,158 @@
+[
+  {
+    "hendelse": "Nimbus Sky har bortfall i alle nordiske land. Mobilbanken og nettbanken er nede for alle kunder, og leverandøren venter at det varer i fire timer.",
+    "alvorlighet": "alvorlig"
+  },
+  {
+    "hendelse": "Integrasjonsplattformen (API) stoppet etter en oppgradering. Innenlands betaling har ikke virket på tre timer.",
+    "alvorlighet": "alvorlig"
+  },
+  {
+    "hendelse": "Bankfelles eID er nede. Ingen kunder kommer inn i mobilbanken eller nettbanken, og det har vart i 90 minutter.",
+    "alvorlighet": "alvorlig"
+  },
+  {
+    "hendelse": "KortNord Prosessering avviser alle kortbetalinger fra Morild Bank-kort. Feilen startet for to timer siden.",
+    "alvorlighet": "alvorlig"
+  },
+  {
+    "hendelse": "Kontooversikt og saldo viser feil saldo for omtrent 40 000 kunder etter en nattlig batchkjøring.",
+    "alvorlighet": "alvorlig"
+  },
+  {
+    "hendelse": "En feilkonfigurert eksport har sendt kontoutskrifter med navn og kontonummer til feil mottakere.",
+    "alvorlighet": "alvorlig"
+  },
+  {
+    "hendelse": "Kjernedrift Nord melder bortfall i kjernebanksystemet. Ingen betalinger kan gjennomføres, og forventet varighet er ukjent.",
+    "alvorlighet": "alvorlig"
+  },
+  {
+    "hendelse": "Overvåkingsmotoren (AML) har ikke analysert transaksjoner på 30 timer på grunn av feil i Datavarehuset.",
+    "alvorlighet": "alvorlig"
+  },
+  {
+    "hendelse": "Nettbankplattformen er nede for alle kunder. Mobilbanken virker. Forventet varighet er fem timer.",
+    "alvorlighet": "alvorlig"
+  },
+  {
+    "hendelse": "Innlogging og identifisering har feilet for alle kunder i to timer etter en sertifikatfornyelse.",
+    "alvorlighet": "alvorlig"
+  },
+  {
+    "hendelse": "Avregningssentralen har stans, og utgående betalinger til andre banker har stått stille siden morgenen. Gjenopprettingsmålet på to timer er passert.",
+    "alvorlighet": "alvorlig"
+  },
+  {
+    "hendelse": "Angrep med tjenestenekt gjør at mobilbanken og nettbanken er utilgjengelige for de fleste kunder. Varighet så langt: 70 minutter.",
+    "alvorlighet": "alvorlig"
+  },
+  {
+    "hendelse": "Kortbetaling er nede for alle kunder, og leverandøren venter at det varer resten av dagen.",
+    "alvorlighet": "alvorlig"
+  },
+  {
+    "hendelse": "SMS-Linje leverer varsler om betalinger med opptil to timers forsinkelse. Mobilbanken og nettbanken virker som normalt.",
+    "alvorlighet": "middels"
+  },
+  {
+    "hendelse": "Lånesøknad i nettbanken har vært nede i tre timer. Kundene kan fortsatt ringe kundesenteret for å søke.",
+    "alvorlighet": "middels"
+  },
+  {
+    "hendelse": "Kundesaksbehandling (CRM) er treg, og kundesenteret bruker dobbelt så lang tid per henvendelse. Alle andre tjenester virker.",
+    "alvorlighet": "middels"
+  },
+  {
+    "hendelse": "Mobilbanken er treg i rushtiden, og enkelte kunder må prøve flere ganger før en betaling går gjennom. Alle betalinger blir gjennomført.",
+    "alvorlighet": "middels"
+  },
+  {
+    "hendelse": "Kredittvurderingen gir manuell behandling for alle lånesøknader i dag, så kundene får svar etter to dager i stedet for med en gang.",
+    "alvorlighet": "middels"
+  },
+  {
+    "hendelse": "Varsler og meldinger i mobilbanken vises ikke for kunder på eldre telefoner. Betaling og kontooversikt virker.",
+    "alvorlighet": "middels"
+  },
+  {
+    "hendelse": "Kundehenvendelser via chat er nede i fire timer. Telefon og e-post til kundesenteret virker.",
+    "alvorlighet": "middels"
+  },
+  {
+    "hendelse": "Saksflyt AS har redusert kapasitet, og ventetiden i kundesenteret er 25 minutter i stedet for 5.",
+    "alvorlighet": "middels"
+  },
+  {
+    "hendelse": "Kontooversikten viser transaksjoner med 30 minutters forsinkelse. Saldoen er riktig, og betalinger virker.",
+    "alvorlighet": "middels"
+  },
+  {
+    "hendelse": "Nordnett Mobil har feil som gjør at engangskoder på SMS kommer fram etter flere minutter for noen kunder. Innlogging med eID virker.",
+    "alvorlighet": "middels"
+  },
+  {
+    "hendelse": "Lånemotoren er nede i fem timer, så nye forbrukslån kan ikke innvilges før i morgen. Eksisterende lån påvirkes ikke.",
+    "alvorlighet": "middels"
+  },
+  {
+    "hendelse": "Mobilbanken krasjer for kunder som åpner arkivet over eFakturaer. Betaling og kontooversikt virker.",
+    "alvorlighet": "middels"
+  },
+  {
+    "hendelse": "Varsler og meldinger er nede i seks timer. Kundene får ikke beskjed om innkommende betalinger, men alt annet virker.",
+    "alvorlighet": "middels"
+  },
+  {
+    "hendelse": "Testmiljøet for integrasjonsplattformen er nede. Produksjon påvirkes ikke.",
+    "alvorlighet": "lav"
+  },
+  {
+    "hendelse": "Datavarehuset ble oppdatert en time senere enn vanlig i natt. Ingen kundetjenester er berørt.",
+    "alvorlighet": "lav"
+  },
+  {
+    "hendelse": "SMS-varsler var forsinket med fem minutter i ti minutter i natt.",
+    "alvorlighet": "lav"
+  },
+  {
+    "hendelse": "Et internt rapportverktøy for ledelsen viser gårsdagens tall i stedet for dagens.",
+    "alvorlighet": "lav"
+  },
+  {
+    "hendelse": "Overvåkingen av Varslingstjenesten ga et falskt alarmvarsel. Tjenesten har virket hele tiden.",
+    "alvorlighet": "lav"
+  },
+  {
+    "hendelse": "Planlagt vedlikehold av nettbanken gikk som planlagt mellom klokka 02 og 03 i natt, og kundene var varslet på forhånd.",
+    "alvorlighet": "lav"
+  },
+  {
+    "hendelse": "En ansatt fikk ikke logget inn i saksbehandlingssystemet i 20 minutter på grunn av et utløpt passord.",
+    "alvorlighet": "lav"
+  },
+  {
+    "hendelse": "Backupjobben for Kundesaksbehandling (CRM) feilet én gang, men gikk bra ved neste forsøk en time senere.",
+    "alvorlighet": "lav"
+  },
+  {
+    "hendelse": "En skrivefeil i en driftsmelding på nettsiden ble rettet etter en halvtime.",
+    "alvorlighet": "lav"
+  },
+  {
+    "hendelse": "Datahall Vest byttet til reservestrøm i to minutter under en test. Ingen tjenester ble påvirket.",
+    "alvorlighet": "lav"
+  },
+  {
+    "hendelse": "Leverandøren Kredittdata Norden varslet om planlagt oppgradering neste uke uten forventet nedetid.",
+    "alvorlighet": "lav"
+  },
+  {
+    "hendelse": "Logglagringen for integrasjonsplattformen er 85 prosent full og må utvides innen en måned.",
+    "alvorlighet": "lav"
+  },
+  {
+    "hendelse": "Et internt dashbord for driften var tregt i en time. Kundetjenestene virket normalt.",
+    "alvorlighet": "lav"
+  }
+]

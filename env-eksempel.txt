@@ -1,0 +1,5 @@
+# Kopier denne fila, gi kopien navnet .env og fyll inn nøklene du har. Del aldri .env med andre.
+OPENAI_API_KEY=
+ANTHROPIC_API_KEY=
+GEMINI_API_KEY=
+MISTRAL_API_KEY=

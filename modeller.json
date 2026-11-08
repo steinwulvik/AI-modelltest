@@ -1,0 +1,11 @@
+{
+  "_forklaring": "Én linje per modell. 'modell' er navnet hos leverandøren med prefiks (openai/, anthropic/, gemini/, mistral/, azure/, ollama_chat/). Fyll inn modellnavn fra leverandørens modellside (se README). 'aktiv: false' hopper over modellen. 'temperatur: null' sender ingen temperatur (for modeller som ikke støtter det). Pris er valgfri: dollar per million inn- og ut-tokens, brukes bare hvis leverandøren ikke oppgir kostnad selv.",
+  "modeller": [
+    {"navn": "GPT",            "modell": "openai/gpt-6-luna",      "nokkel": "OPENAI_API_KEY",    "aktiv": true, "temperatur": null},
+    {"navn": "Claude",         "modell": "anthropic/claude-haiku-5-5",   "nokkel": "ANTHROPIC_API_KEY", "aktiv": true, "temperatur": null},
+    {"navn": "Gemini",         "modell": "gemini/gemini-3.5-flash-lite",      "nokkel": "GEMINI_API_KEY",    "aktiv": true},
+    {"navn": "Mistral",        "modell": "mistral/mistral-small-2603",     "nokkel": "MISTRAL_API_KEY",   "aktiv": true},
+    {"navn": "Llama (lokal)",  "modell": "ollama_chat/llama3.1:8b", "api_base": "http://localhost:11434/v1", "aktiv": false},
+    {"navn": "Mistral (lokal)","modell": "ollama_chat/mistral",     "api_base": "http://localhost:11434/v1", "aktiv": true}
+  ]
+}
