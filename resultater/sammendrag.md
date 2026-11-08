@@ -39,7 +39,7 @@ Kjørt 07.11.2026 18:59. Oppgave: klassifisere 39 hendelser som lav, middels ell
 | alvorlig | 0 | 0 | 13 | 0 |
 
 - Fasit **middels**, svar **lav**: Lånesøknad i nettbanken har vært nede i tre timer. Kundene kan fortsatt ringe kundesenteret for å søke.
-- Fasit **middels**, svar **[gemini/gemini-3.5-flash-lite] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. T**: Kredittvurderingen gir manuell behandling for alle lånesøknader i dag, så kundene får svar etter to dager i stedet for med en gang.
+- Fasit **middels**, svar **ingen svar (kvotegrense nådd)**: Kredittvurderingen gir manuell behandling for alle lånesøknader i dag, så kundene får svar etter to dager i stedet for med en gang.
 - Fasit **middels**, svar **lav**: Saksflyt AS har redusert kapasitet, og ventetiden i kundesenteret er 25 minutter i stedet for 5.
 - Fasit **middels**, svar **lav**: Varsler og meldinger er nede i seks timer. Kundene får ikke beskjed om innkommende betalinger, men alt annet virker.
 

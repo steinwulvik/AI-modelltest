@@ -57,6 +57,16 @@ def normaliser(svar: str) -> str:
     return treff.group(1) if treff else s
 
 
+def kort_feil(e: Exception) -> str:
+    """Kort, lesbar feiltekst til resultatfilene i stedet for leverandørens fulle feilmelding."""
+    tekst = " ".join(str(e).split()).lower()
+    if "quota" in tekst or "rate limit" in tekst or "429" in tekst:
+        return "Kvotegrense nådd"
+    if "timeout" in tekst or "timed out" in tekst:
+        return "Tidsavbrudd"
+    return "Feil i kallet"
+
+
 def riktig(eksempel, svar, trace=None) -> bool:
     return normaliser(svar.alvorlighet) == eksempel.alvorlighet
 
@@ -124,7 +134,7 @@ def kjor(navn, lm, program, testsett):
                 svar = normaliser(program(hendelse=x.hendelse).alvorlighet)
                 feil = ""
             except Exception as e:  # en feil i ett kall skal ikke stoppe hele kjøringen
-                svar, feil = "", " ".join(str(e).split())[:200]
+                svar, feil = "", kort_feil(e)
             detaljer.append(
                 {
                     "modell": navn,
@@ -202,7 +212,7 @@ def skriv_resultater(sammendrag, alle_detaljer, begrunnelse):
             linjer.append(f"| {fasit} | " + " | ".join(str(rad[k]) for k in KLASSER + ["annet"]) + " |")
         linjer.append("")
         for d in bom:
-            linjer.append(f"- Fasit **{d['fasit']}**, svar **{d['svar'] or d['feil'] or '(tomt)'}**: {d['hendelse']}")
+            linjer.append(f"- Fasit **{d['fasit']}**, svar **{d['svar'] or 'ingen svar (' + (d['feil'] or 'tomt').lower() + ')'}**: {d['hendelse']}")
         linjer.append("")
 
     (ut / "sammendrag.md").write_text("\n".join(linjer), encoding="utf-8")

@@ -94,7 +94,7 @@ Gemini;SMS-Linje leverer varsler om betalinger med opptil to timers forsinkelse.
 Gemini;Lånesøknad i nettbanken har vært nede i tre timer. Kundene kan fortsatt ringe kundesenteret for å søke.;middels;lav;False;0.5;
 Gemini;Kundesaksbehandling (CRM) er treg, og kundesenteret bruker dobbelt så lang tid per henvendelse. Alle andre tjenester virker.;middels;middels;True;1.14;
 Gemini;Mobilbanken er treg i rushtiden, og enkelte kunder må prøve flere ganger før en betaling går gjennom. Alle betalinger blir gjennomført.;middels;middels;True;2.8;
-Gemini;Kredittvurderingen gir manuell behandling for alle lånesøknader i dag, så kundene får svar etter to dager i stedet for med en gang.;middels;;False;32.14;[gemini/gemini-3.5-flash-lite] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. T
+Gemini;Kredittvurderingen gir manuell behandling for alle lånesøknader i dag, så kundene får svar etter to dager i stedet for med en gang.;middels;;False;32.14;Kvotegrense nådd
 Gemini;Varsler og meldinger i mobilbanken vises ikke for kunder på eldre telefoner. Betaling og kontooversikt virker.;middels;middels;True;16.39;
 Gemini;Kundehenvendelser via chat er nede i fire timer. Telefon og e-post til kundesenteret virker.;middels;middels;True;0.87;
 Gemini;Saksflyt AS har redusert kapasitet, og ventetiden i kundesenteret er 25 minutter i stedet for 5.;middels;lav;False;0.94;
