@@ -1,0 +1,12 @@
+# API-nøkler: skal aldri lastes opp
+.env
+
+# Python-miljø og hurtigbuffer
+.venv/
+__pycache__/
+
+# Lokale logger
+oppsett-logg.txt
+kjor-logg.txt
+sjekk-logg.txt
+modeller-tilgjengelige.txt
